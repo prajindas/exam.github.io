@@ -1,0 +1,22 @@
+form div{
+    margin-top: 20px;
+}
+#page-2{
+    display: none;
+}
+#page-3{
+    display: none;
+}
+
+#page-3 p{
+    color: #2ecc2e;
+}
+body {
+    background: #a72eee;
+}
+.container{
+    background: #a72eee;
+}
+.card{
+    background:#f7f3f3;
+}

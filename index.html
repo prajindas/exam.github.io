@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container first-page" id="page-1">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h3 class="title-1">Internal Exam</h3>
+                    </div>
+                    <form action="">
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="name" class="form-label col-12">NAME</label>
+                                <input type="text" name="name" class="form-input col-12" id="name" required>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="roll-no" class="form-label col-12">ROLL-NO</label>
+                                <input type="number" name="roll-no" class="form-input col-12" id="roll-no" required>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="email" class="form-label col-12">EMAIL ID</label>
+                                <input type="email" name="email" class="form-input col-12" id="email" required>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn next" id="next">next</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container second-page " id="page-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h3 class="">Questions</h3>
+                    </div>
+                    <form action="">
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="qno-1" class="form-label col-12">What is the main difference between a computer program and computer software?</label>
+                                <textarea type="text" name="qno-1" class="form-input col-12" id="qno-1" placeholder="your answer" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="qno-2" class="form-label col-12">List the task regions in the Spiral model.</label>
+                                <textarea type="text" name="qno-2" class="form-input col-12" id="qno-2" placeholder="your answer"></textarea>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <label for="qno-3" class="form-label col-12">Identify the software life cycle model for the following statements.(a) The customer said his set of requirements and he demands the software was soon as possible (b) A graphical user interface part of a large software product.</label>
+                                <textarea type="text" name="qno-3" class="form-input col-12" id="qno-3" placeholder="your answer" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn submit" id="submit">submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container third-page" id="page-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="titile text-center">
+                        <h3>answer checking</h3>
+                    </div>
+                    <h6>copy-paste contents</h6>
+                    <div class="card">
+                        <div class="card-body">
+                            <label for="an-1">question NO: 1</label>
+                            <p class="paste-1" id="paste-1">no pasted text</p>
+                        </div>
+                        <div class="card-body">
+                            <label for="an-2">question NO: 2</label>
+                            <p class="paste-2" id="paste-2">no pasted text</p>
+                        </div>
+                        <div class="card-body">
+                            <label for="an-3">question NO: 2</label>
+                            <p class="paste-3" id="paste-3">no pasted text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
